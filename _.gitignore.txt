@@ -1,0 +1,18 @@
+# Environment variables — NEVER commit this
+.env
+
+# Database (contains real user data)
+*.db
+*.sqlite
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Exports
+leads_export_*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
